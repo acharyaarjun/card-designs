@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.product-box {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(13, 29, 13, 0.1);
+}
+
+.product-box .product-image img {
+    width: 100%;
+    padding: 20px;
+}
+
+.product-box .product-name h2 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.product-box .product-description p {
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.product-box .product-cost h4 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.product-box .product-rating{
+    padding: 0 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.product-box .product-rating .icon-yellow{
+    color: rgb(255, 98, 0);
+    font-size: 20px;
+}
+.product-box .product-rating .icon-default{
+    font-size: 20px;
+}
+.product-box .add-to-cart{
+    background-color: black;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+.product-box .add-to-cart a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: capitalize;
+}
