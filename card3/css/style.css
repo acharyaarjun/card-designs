@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #191d20;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.post {
+    border-radius: 10px;
+    background-color: #fff;
+    width: 300px;
+    border-radius: #191d20;
+}
+
+.post .post-image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.post .posted-date {
+    padding: 10px 20px 0;
+    text-align: center;
+}
+
+.post .posted-date b {
+    color: rgb(192, 0, 32);
+}
+
+.post .post-title {
+    text-align: center;
+}
+
+.post .post-description {
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: grey;
+}
+
+.post .post-footer {
+    display: flex;
+    background-color: rgb(159, 14, 152);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 80px;
+    align-items: center;
+}
+
+.post .post-footer .post-footer-item {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.post .post-footer .post-footer-item p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post .post-footer .post-footer-item h3 {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.post .post-footer .post-footer-item.border {
+    border-left: 1px solid rgb(202, 195, 195);
+    border-right: 1px solid rgb(202, 195, 195);
+}
