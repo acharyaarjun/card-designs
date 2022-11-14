@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+#login-form {
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#login-desc {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ff4269;
+}
+
+.login-card {
+    width: 350px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 25px 0px rgba(13, 29, 13, 0.1);
+}
+
+.login-card .login-card-header{
+    padding: 30px;
+    text-align: center;
+}
+.login-card .login-card-header h1{
+    font-size: 40px;
+}
+
+.login-card .login-social-icon{
+    text-align: center;
+    padding: 0 20px 10px 20px;
+}
+.login-card .login-social-icon a{
+    text-decoration: none;
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ff4269;
+    color: #ff4269;
+    margin: 0 5px;
+    transition: 1s;
+}
+.login-card .login-social-icon a:hover{
+    background-color: #ff4269;
+    color: white;
+}
+.login-card .login-form-description{
+    padding: 20px 10px 0;
+    text-align: center;
+}
+.login-card .login-form{
+    /* background-color: red; */
+    padding: 0 10px;
+}
+.login-card .login-form .form-group{
+    width: 100%;
+    margin: 10px 0;
+    background-color: #efefef;
+}
+.login-card .login-form .form-group .form-control{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #efefef;
+}
+.login-card .login-form .form-group .form-control:hover,
+.login-card .login-form .form-group .form-control:focus{
+    border: none;
+    outline: none;
+}
+
+.login-card .login-form .forgot-password-txt{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-card .login-form .forgot-password-txt a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+.login-card .login-form .forgot-password-txt a:hover{
+    text-decoration: underline;
+    color: #ff4269;
+}
+
+.login-card .login-form .form-submit{
+    /* background-color: red; */
+    padding: 10px;
+    text-align: center;
+}
+.login-card .login-form .form-submit .submit-btn{
+    color: #ff4269;
+    font-weight: bold;
+    padding: 10px 40px;
+    letter-spacing: 10px;
+    border: 2px solid #ff4269;
+    border-radius: 20px;
+    transition: 1s;
+}
+.login-card .login-form .form-submit .submit-btn:hover{
+    background-color: #ff4269;
+    color: white;
+}
+
+#login-desc h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#login-desc p{
+    text-align: center;
+    color: white;  
+}
