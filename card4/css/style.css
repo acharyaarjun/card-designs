@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.service_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.service_section h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 25px 0;
+    font-weight: 400;
+
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 5px 5px 20px #d2cdcd;
+    width: 300px;
+    /** height: 300px;**/
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.card:hover {
+    background-color: #e2e2e2;
+}
+
+.icon {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid rgb(18, 143, 184);
+    border-radius: 50%;
+    transition: 2s;
+}
+
+.service_section .row .icon .icon-yellow {
+    color: rgb(18, 143, 184);
+    font-size: 30px;
+}
+.card:hover .icon {
+    background-color: rgb(18, 143, 184);
+    color: white;
+}
+
+.card:hover .icon .icon-yellow {
+    color: white;
+}
+
+.card:hover .Title h2 {
+    color: rgb(18, 143, 184);
+}
+
+
+.Title h2 {
+    color: rgb(68, 39, 39);
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(61, 51, 51, 0.425);
+}
+
+@media only screen and (max-width:600px) {
+    .row {
+        flex-direction: column;
+    }
+
+}
