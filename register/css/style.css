@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .register {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+  padding: 20px;
+}
+
+.container .register .register-header {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.container .register .register-header h2 span {
+  border-bottom: 5px solid blue;
+  border-radius: 4px;
+}
+
+.container .register .register-body .form-group {
+  margin: 10px 0;
+  /* background-color: red; */
+  padding: 10px 0;
+  border-bottom: 3px solid #ccc;
+  /* transition: 3s; */
+}
+.container .register .register-body .form-group .from-element {
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  font-family: FontAwesome;
+  text-transform: initial !important;
+}
+.container .register .register-body .form-group:focus-within {
+  border-bottom: 3px solid blue;
+}
+.container .register .register-body .accept {
+  font-weight: 200;
+  color: #716565;
+  margin-bottom: 15px;
+}
+
+.container .register .register-body .button {
+  margin: 15px 0;
+  padding: 0;
+  width: 100%;
+}
+.container .register .register-body .button input {
+  width: 100%;
+  background-color: blue;
+  padding: 10px;
+  outline: 2px solid blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.container .register .register-body .register-footer {
+  font-weight: 200;
+  color: #716565;
+  margin-bottom: 15px;
+}
+.container .register .register-body .register-footer p a {
+  text-decoration: none;
+}
