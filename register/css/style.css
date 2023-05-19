@@ -48,6 +48,8 @@ body {
   outline: none;
   letter-spacing: 2px;
   font-family: FontAwesome;
+  font-style: normal;
+  text-transform: none;
   text-transform: initial !important;
 }
 .container .register .register-body .form-group:focus-within {

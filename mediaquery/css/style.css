@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 100px;
+}
+
+.row .col {
+  background-color: rgb(74, 23, 194);
+  color: #fff;
+  font-weight: bold;
+  padding: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+/* for small devices like mobile smartwatch */
+/* 600px vanda sana width vayeka device haru */
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    background-color: green;
+  }
+}
+
+/* for large mobiles like tablets and ipad (600-768)px */
+/* 600px vanda thula (arko width define na gareko samman) width vayeka device haru */
+@media only screen and (min-width: 600px) {
+  .row {
+    flex-direction: column;
+    background-color: rgb(85, 101, 85);
+  }
+}
+
+/* for large landscapes tablet like tablets and ipad and small laptop desktops*/
+/* 768px vanda thula (arko width define na gareko samman) width vayeka device haru */
+@media only screen and (min-width: 768px) {
+  .row {
+    flex-direction: column;
+    background-color: rgb(4, 7, 4);
+  }
+}
+
+/* for laptops and desktops*/
+/* 992px vanda thula (arko width define na gareko samman) width vayeka device haru */
+@media only screen and (min-width: 992px) {
+  .row {
+    flex-direction: row;
+    background-color: rgb(126, 77, 13);
+  }
+}
+
+/* for laptops and desktops*/
+/* 1200px vanda thula (arko width define na gareko samman) width vayeka device haru */
+@media only screen and (min-width: 1200px) {
+  .row {
+    flex-direction: row;
+    background-color: rgb(0, 65, 91);
+  }
+}
