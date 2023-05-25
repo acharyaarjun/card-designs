@@ -87,3 +87,7 @@ body {
 .container .register .register-body .register-footer p a {
   text-decoration: none;
 }
+
+i {
+  text-transform: none;
+}

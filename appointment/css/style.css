@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 8px 8px #ccc;
+  width: 600px;
+  border-radius: 5px;
+}
+.card .logo {
+  text-align: center;
+}
+.card .logo img {
+  height: 50px;
+}
+
+.card .name {
+  margin: 20px 0;
+}
+.card .name h3 {
+  font-weight: 600;
+}
+.card .heading {
+  margin-bottom: 20px;
+}
+.card .heading p {
+  font-weight: 100;
+}
+
+.card .credentials {
+  margin-bottom: 20px;
+}
+.card .credentials span {
+  color: blue;
+  font-weight: bold;
+}
+
+.card .link {
+  margin-bottom: 20px;
+}
+
+.card .link a {
+  color: blue;
+}
+
+.card .button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card .button a {
+  background-color: #0e82fd;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.card .thanks {
+  margin-bottom: 20px;
+  /* font-weight: bold; */
+}
+.card .thanks span {
+  font-weight: bold;
+  color: #0e82fd;
+}
+
+.card .copyright {
+  text-align: center;
+}
+
+.card .copyright a {
+  text-decoration: none;
+  font-weight: bold;
+}
