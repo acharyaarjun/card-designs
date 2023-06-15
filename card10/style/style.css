@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #ccc;
+  margin: 20px;
+}
+
+.box .image img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box .content {
+  padding: 20px;
+}
+
+.box .content .category {
+  color: gray;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.box .content .title {
+  color: black;
+  font-size: 24px;
+}
+
+.box .content .description {
+  color: gray;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.box .content .author {
+  font-size: 16px;
+  color: gray;
+}
+
+.box .content b {
+  color: red;
+  font-weight: bold;
+}
