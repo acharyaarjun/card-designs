@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #d9d9d9;
+}
+
+.btn {
+  background-color: #065c96;
+  padding: 5px 15px;
+  border: 1px solid #065c96;
+  outline: 1px solid #065c96;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.btn:hover,
+.card .content .category .btn.btn-1:hover,
+.card .cart .add-to-cart .cart-btn:hover {
+  background-color: #054e00;
+  border: 1px solid #054e00;
+  outline: 1px solid #054e00;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  width: 800px;
+  margin-bottom: 20px;
+}
+.card .image {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.card .image img {
+  width: 100%;
+}
+
+.card .content {
+  width: 60%;
+  padding: 20px;
+}
+
+.card .content .title p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.card .content .category .btn.btn-1 {
+  background-color: #f45d62;
+  border: 1px solid #f45d62;
+  outline: 1px solid #f45d62;
+}
+
+.card .content .description {
+  margin: 20px 0 20px 0;
+}
+
+.card .content .description p {
+  font-weight: bold;
+}
+
+.card .content .brand p {
+  font-weight: bold;
+}
+
+.card .content .brand p span {
+  color: blue;
+}
+
+.card .cart {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .cart .center {
+  background-color: red;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card .cart .price p {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card .cart .rating .icon {
+  color: rgb(4, 8, 121);
+  margin-bottom: 5px;
+}
+
+.card .cart .rating .icon.yellow {
+  color: #ff0000;
+}
+
+.card .cart .review p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card .cart .add-to-cart {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .cart .add-to-cart .cart-btn {
+  text-decoration: none;
+  background-color: #7f07f8;
+  border: 1px solid #7f07f8;
+  outline: 1px solid #7f07f8;
+}
