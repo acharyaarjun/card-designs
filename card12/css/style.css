@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Questrial", sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.wrapper {
+  margin: 20px;
+}
+
+.wrapper .coupon-card {
+  background-color: #fff;
+  width: 280px;
+  box-shadow: 0px 0px 20px #ccc;
+  border-radius: 5px;
+  display: flex;
+}
+.wrapper .coupon-card .coupon {
+  width: 60%;
+  text-align: center;
+}
+.wrapper .coupon-card .coupon p {
+  color: gray;
+  margin: 5px;
+}
+.wrapper .coupon-card .coupon h2 {
+  color: #ff3300;
+  margin-bottom: 5px;
+}
+.wrapper .coupon-card .off {
+  width: 40%;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.wrapper .ecom-card {
+  background-color: #fff;
+  width: 280px;
+  box-shadow: 0px 0px 20px #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.wrapper .ecom-card .image {
+  position: relative;
+}
+.wrapper .ecom-card .image .dicount-badge {
+  background-color: red;
+  display: inline-flex;
+  padding: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.wrapper .ecom-card .image .wishlist-icon {
+  background-color: #fff;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.wrapper .ecom-card .image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.wrapper .ecom-card .content {
+  display: flex;
+  padding: 10px;
+}
+.wrapper .ecom-card .content .content-left {
+  width: 60%;
+}
+
+.wrapper .ecom-card .content .content-left .title p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.wrapper .ecom-card .content .content-left .color {
+  display: flex;
+}
+.wrapper .ecom-card .content .content-left .color div {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 10px 5px 20px 0;
+}
+.wrapper .ecom-card .content .content-left .color div.red {
+  border: 2px solid red;
+}
+.wrapper .ecom-card .content .content-left .color div.blue {
+  border: 2px solid blue;
+}
+.wrapper .ecom-card .content .content-left .color div.green {
+  border: 2px solid green;
+}
+.wrapper .ecom-card .content .content-left .rating {
+  font-weight: bold;
+}
+.wrapper .ecom-card .content .content-right {
+  width: 40%;
+  text-align: right;
+}
+.wrapper .ecom-card .content .content-right .price .current-price {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper .ecom-card .content .content-right .price .discounted-price {
+  font-size: 12px;
+}
+
+.wrapper .ecom-card .content .content-right .size {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.wrapper .ecom-card .content .content-right .size div {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #ccc;
+  margin: 20px 0 20px 10px;
+  border-radius: 50%;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .ecom-card .content .content-right .buy a {
+  color: blue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
