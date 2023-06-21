@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 300vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: red;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* savbbai vanda sano dekhi (0px) width 500px ko huni bela samman */
+/* Extra small devices (phones, 600px and down) */
+/* width range 0-600px */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+    flex-direction: column;
+  }
+
+  .hiddeninmobile {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* width range 600px - arko define na garni samman  aailey ko case ma 768px */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: yellow;
+    flex-direction: column;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* width range 768px  - arko define na garni samman  aailey ko case ma 992px */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* width range 992px bata mathi arko define na garni samman aailey ko case ma 1200px */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: rgb(0, 65, 82);
+    color: white;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* width range 1200px - arko define na garni bela samman aailey ko case ma infinite */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(225, 0, 255);
+    color: white;
+  }
+}
+
+/*
+ 0-500 => red
+ 500-600 => default;
+ 600-899/900 => yellow;
+900-> black
+ */
+
+/* 
+ max width vaneko chai yeuta matrai dini and max width ma diyeko value chai  0  dekhi teti samman tyo css ley kam garxa yedi arko max width define gareko xaina vaney
+ 
+ min-width: mathi arko mid width define garko xa vaney chai tyo min width ko value rw arko min width samman ko value samman kam garxa
+
+ yedi xaina vaney min width dekhi mathi inifinte samman nai tehi kam garxa
+ */
