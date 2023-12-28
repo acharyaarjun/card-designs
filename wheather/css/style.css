@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #d5d6d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  background-color: #ffffff74;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 28%;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px 0 0 20px;
+}
+
+.right {
+  background-color: #ffffff6f;
+  width: 72%;
+  border-radius: 0 20px 20px 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.right .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right .header .header-left h2 {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.right .header .header-right .btn {
+  background-color: #fff;
+  outline: none;
+  border: 2px solid #fff;
+  height: 30px;
+  width: 30px;
+  color: #000;
+  font-weight: 400;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.right .header .header-right .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.right .header .header-right .btn.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.right .week {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.right .week .day {
+  background-color: #fff;
+  padding: 10px;
+  width: 13%;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.right .today {
+  display: flex;
+  flex-direction: column;
+}
+
+.right .today .title h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.right .today .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.right .today .content .card {
+  background-color: #fff;
+  padding: 10px;
+  width: 32%;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
