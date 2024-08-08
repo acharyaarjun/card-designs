@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+}
+
+.container .header {
+  text-align: center;
+}
+
+.container .header .logo {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container .header .logo img {
+  height: 40px;
+  width: 120px;
+}
+
+.container .header .title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.container .header .moving-truck {
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container .header .moving-truck img {
+  height: 120px;
+  width: 120px;
+}
+
+.container .status-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.container .status-btn a {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #0700ff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container .header .message {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container .summary {
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  display: flex;
+}
+
+.container .summary .order-summary {
+  width: 50%;
+  padding: 10px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.container .summary .order-summary .order-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.container .summary .order-summary .order-details {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.container .summary .order-summary .order-details div {
+  margin: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .summary .order-summary .order-details div .order-details-title {
+  width: 30%;
+}
+
+.container .summary .shipping-address {
+  width: 50%;
+  padding: 10px;
+}
+
+.container .summary .shipping-address .shipping-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.container .summary .shipping-address .shipping-details {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container .summary .shipping-address .shipping-details div {
+  margin: 2px 0;
+}
+
+.container .items-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container .items-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container .items-table table thead {
+  background-color: #f5f5f5;
+  text-transform: uppercase;
+}
+
+.container .items-table table thead th {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+}
+
+.container .items-table table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.container .items-table table tbody tr td {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+}
+
+.container .items-table table tbody tr .item-td,
+.container .items-table table thead tr .item-th {
+  width: 60%;
+}
+
+.container .items-table table tbody tr .qty-td,
+.container .items-table table thead tr .qty-th {
+  width: 10%;
+  text-align: center;
+}
+.container .items-table table tbody tr .price-td,
+.container .items-table table thead tr .price-th {
+  width: 30%;
+  text-align: end;
+}
+
+.container .items-table table tbody tr .price-td {
+  font-weight: 600;
+}
+
+.container .items-table table tbody tr td .flex {
+  display: flex;
+  gap: 10px;
+}
+
+.container .items-table table tbody tr td img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.container .items-table table tbody tr td .item-name {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+
+.container .items-summary {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container .items-summary .total {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 14px;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+
+.container .items-summary .total .total-price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  width: 30%;
+  text-align: end;
+}
+
+.container .items-summary .total .total-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  width: 70%;
+  text-align: end;
+}
+
+.container .items-summary .grand-total .total-title,
+.container .items-summary .grand-total .total-price {
+  font-weight: 600;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  background-color: #0700ff;
+  color: #fff;
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 5px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .container .summary {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container .summary .order-summary {
+    border-right: 1px solid transparent;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .container .summary .shipping-address {
+    width: 100%;
+  }
+
+  .container .summary .order-summary .order-details div .order-details-title {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+}
