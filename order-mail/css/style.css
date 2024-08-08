@@ -282,10 +282,6 @@ body {
     padding: 5px;
   }
 
-  .container {
-    padding: 5px;
-  }
-
   .container .summary {
     flex-direction: column;
     flex-wrap: wrap;
@@ -306,7 +302,7 @@ body {
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 620px) {
   body {
     padding: 10px;
   }
